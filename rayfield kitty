@@ -2472,7 +2472,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	Paragraph.Title.Text = ParagraphSettings.Title
 	Paragraph.Title.TextSize = 18 -- Увеличенный размер текста для заголовка
 	Paragraph.Content.Text = ParagraphSettings.Content
-    Paragraph.Content.Transparency = 0.7
+    Paragraph.Content.TextTransparency = 0.7 -- Прозрачность текста контента
 	Paragraph.Visible = true
 	Paragraph.Parent = TabPage
 
