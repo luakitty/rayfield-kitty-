@@ -557,10 +557,10 @@ local RayfieldLibrary = {
 			PlaceholderColor = Color3.fromRGB(150, 150, 150)
 		},
 		Kitty = {
-			TextColor = Color3.fromRGB(50, 55, 60),
-			Background = Color3.fromRGB(240, 245, 250),
-			Topbar = Color3.fromRGB(215, 225, 235),
-			Shadow = Color3.fromRGB(200, 210, 220),
+			TextColor = Color3.fromRGB(240, 240, 240),
+			Background = Color3.fromRGB(24, 18, 36),
+			Topbar = Color3.fromRGB(29, 23, 43),
+			Shadow = Color3.fromRGB(147, 113, 201),
 
 			NotificationBackground = Color3.fromRGB(210, 220, 230),
 			NotificationActionsBackground = Color3.fromRGB(225, 230, 240),
