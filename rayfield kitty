@@ -2431,7 +2431,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	Paragraph.Title.Text = ParagraphSettings.Title
 	Paragraph.Title.TextSize = 18 -- Увеличенный размер текста для заголовка
 	Paragraph.Content.Text = ParagraphSettings.Content
-	Paragraph.Content.TextTransparency = 0.1 -- Прозрачность текста контента
+	Paragraph.Content.TextTransparency = 0.3 -- Прозрачность текста контента
 	Paragraph.Visible = true
 	Paragraph.Parent = TabPage
 
@@ -2443,7 +2443,7 @@ function RayfieldLibrary:CreateWindow(Settings)
 	TweenService:Create(Paragraph, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {BackgroundTransparency = 0}):Play()
 	TweenService:Create(Paragraph.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {Transparency = 0}):Play()
 	TweenService:Create(Paragraph.Title, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0}):Play()	
-	TweenService:Create(Paragraph.Content, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0.7}):Play() -- Прозрачность при анимации
+	TweenService:Create(Paragraph.Content, TweenInfo.new(0.7, Enum.EasingStyle.Exponential), {TextTransparency = 0.3}):Play() -- Прозрачность при анимации
 
 	function ParagraphValue:Set(NewParagraphSettings)
 		Paragraph.Title.Text = NewParagraphSettings.Title
